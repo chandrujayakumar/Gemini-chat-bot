@@ -7,7 +7,7 @@ import google.generativeai as genai
 st.title("Hey There")
 st.image("./image.png")
 
-genai.configure(api_key="AIzaSyDBWhBoi_boQYvGt4e-p_O0YDY0_7KDpkU")
+genai.configure(api_key="")
 
 text = st.text_input("Ask any thing you want")
 
